@@ -1,0 +1,9 @@
+export { default as Header } from './Header';
+export { default as Footer } from './Footer';
+export { default as Layout } from './Layout';
+export { default as Hero } from './Hero';
+export { default as Card } from './Card';
+export { default as Cards } from './Cards';
+export { default as Partner } from './Partner';
+export { default as Partners } from './Partners';
+export { default as Relax } from './Relax';
