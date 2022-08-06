@@ -4,8 +4,9 @@ import { Partner } from '../components/index';
 const Partners = () => {
   return (
     <section
+      data-aos="fade-left"
       id="partners"
-      className="mt-10 text-center grid gap-8 place-items-center"
+      className="mt-10 grid place-items-center gap-8 text-center"
     >
       <div className="grid gap-4">
         <h2 className="text-4xl font-bold text-amber-400">Our Partners</h2>
@@ -16,7 +17,7 @@ const Partners = () => {
         quisquam tenetur pariatur magnam blanditiis itaque, accusantium aliquam.
         Minus, alias ipsa.
       </p>
-      <div className="flex flex-wrap justify-center gap-8 md:gap-x-16 max-w-2xl mx-auto">
+      <div className="mx-auto flex max-w-2xl flex-wrap justify-center gap-8 md:gap-x-16">
         <Partner />
         <Partner />
         <Partner />

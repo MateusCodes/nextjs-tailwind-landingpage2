@@ -4,7 +4,7 @@ import Image from 'next/future/image';
 
 const Cards = () => {
   return (
-    <section id="cards">
+    <section id="cards" data-aos="fade-right">
       <div className="grid gap-12 overflow-hidden px-8 sm:gap-16 md:gap-24 lg:gap-32">
         <a
           href="#"

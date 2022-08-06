@@ -3,9 +3,12 @@ import Image from 'next/future/image';
 
 const Footer = () => {
   return (
-    <footer className="container mx-auto px-8 overflow-hidden mt-10">
+    <footer
+      data-aos="fade-left"
+      className="container mx-auto mt-10 overflow-hidden px-8"
+    >
       <div className="flex flex-wrap justify-center gap-12 md:gap-6 lg:gap-20">
-        <div className="md:flex-1 md:max-w-sm relative">
+        <div className="relative md:max-w-sm md:flex-1">
           <Image
             src="/lamp.png"
             blurDataURL="/lamp.png"
@@ -17,7 +20,7 @@ const Footer = () => {
           />
           <a
             href="#"
-            className="py-2 px-6 shadow-xl hover:shadow-none transition-shadow focus:outline-none focus-visible:ring-4 ring-neutral-900 rounded-md ring-offset-4 ring-offset-white dark:ring-offset-neutral-800 bg-amber-400 dark:ring-amber-400 dark:text-neutral-900 mx-auto mt-12 flex gap-2 w-max md:mb-12"
+            className="mx-auto mt-12 flex w-max gap-2 rounded-md bg-amber-400 py-2 px-6 shadow-xl ring-neutral-900 ring-offset-4 ring-offset-white transition-shadow hover:shadow-none focus:outline-none focus-visible:ring-4 dark:text-neutral-900 dark:ring-amber-400 dark:ring-offset-neutral-800 md:mb-12"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -42,27 +45,27 @@ const Footer = () => {
             alt="app"
             width={240}
             height={643}
-            className="hidden md:block drop-shadow-xl absolute left-1/2 -translate-x-1/2 max-w-16 xl:max-w-xs"
+            className="absolute left-1/2 hidden max-w-16 -translate-x-1/2 drop-shadow-xl md:block xl:max-w-xs"
           />
         </div>
 
         <form
           className="            
             relative
+            my-4
+            grid
+            w-full
+            gap-8
+            rounded-lg
             border-8
             border-neutral-900
-            p-6
-            rounded-lg
-            grid
-            gap-8
-            md:flex-1
-            md:max-w-lg
-            my-4
-            md:my-12
-            lg:my-16
             bg-white
+            p-6
             dark:bg-neutral-800
-            w-full"
+            md:my-12
+            md:max-w-lg
+            md:flex-1
+            lg:my-16"
         >
           <h2 id="contact" className="text-3xl font-bold">
             Lets Connect
@@ -77,29 +80,29 @@ const Footer = () => {
                 peer
                 form-input
                 w-full
+                rounded-md
                 border-4
                 border-amber-400
-                rounded-md
-                focus:ring-4
-                dark:focus:ring-offset-2
-                focus:ring-amber-400
+                placeholder-transparent
                 focus:border-amber-400
                 focus:outline-none
+                focus:ring-4
+                focus:ring-amber-400
                 dark:bg-amber-400
                 dark:text-neutral-900
-                placeholder-transparent"
+                dark:focus:ring-offset-2"
             />
             <label
               htmlFor="name"
               className="         
-        text-neutral-500
-          text-sm
-          font-bold
-          uppercase
-          absolute
+        absolute
           -top-4
           left-2
           -translate-y-1/2
+          text-sm
+          font-bold
+          uppercase
+          text-neutral-500
           transition-all
           peer-placeholder-shown:left-4
           peer-placeholder-shown:top-1/4
@@ -122,29 +125,29 @@ const Footer = () => {
                 peer
                 form-input
                 w-full
+                rounded-md
                 border-4
                 border-amber-400
-                rounded-md
-                focus:ring-4
-                dark:focus:ring-offset-2
-                focus:ring-amber-400
+                placeholder-transparent
                 focus:border-amber-400
                 focus:outline-none
+                focus:ring-4
+                focus:ring-amber-400
                 dark:bg-amber-400
                 dark:text-neutral-900
-                placeholder-transparent"
+                dark:focus:ring-offset-2"
             />
             <label
               htmlFor="email"
               className="         
-        text-neutral-500
-          text-sm
-          font-bold
-          uppercase
-          absolute
+        absolute
           -top-4
           left-2
           -translate-y-1/2
+          text-sm
+          font-bold
+          uppercase
+          text-neutral-500
           transition-all
           peer-placeholder-shown:left-4
           peer-placeholder-shown:top-1/4
@@ -165,32 +168,32 @@ const Footer = () => {
               rows="5"
               className="                peer
                 form-textarea
-                resize-none
                 w-full
+                resize-none
+                rounded-md
                 border-4
                 border-amber-400
-                rounded-md
-                focus:ring-4
-                dark:focus:ring-offset-2
-                focus:ring-amber-400
+                placeholder-transparent
                 focus:border-amber-400
                 focus:outline-none
+                focus:ring-4
+                focus:ring-amber-400
                 dark:bg-amber-400
                 dark:text-neutral-900
-                placeholder-transparent"
+                dark:focus:ring-offset-2"
               placeholder="How can we help?"
             ></textarea>
             <label
               htmlFor="content"
               className="         
-        text-neutral-500
-          text-sm
-          font-bold
-          uppercase
-          absolute
+        absolute
           -top-3
           left-2
           -translate-y-1/2
+          text-sm
+          font-bold
+          uppercase
+          text-neutral-500
           transition-all
           peer-placeholder-shown:left-4
           peer-placeholder-shown:top-6
@@ -206,20 +209,20 @@ const Footer = () => {
           <a
             href="#"
             className="
+            w-max
+            rounded-md
+            bg-neutral-900
             py-2
             px-6
-            bg-neutral-900
             text-white
-            w-max
             shadow-xl
-            hover:shadow-none
-            transition-shadow
-            focus:outline-none
-            focus-visible:ring-4
             ring-neutral-900
-            rounded-md
             ring-offset-4
             ring-offset-white
+            transition-shadow
+            hover:shadow-none
+            focus:outline-none
+            focus-visible:ring-4
             dark:ring-offset-amber-400
         "
           >
