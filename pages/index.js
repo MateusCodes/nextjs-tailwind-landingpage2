@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 
 export default function Home() {
   React.useEffect(() => {
-    Aos.init({ duration: 1000 });
+    Aos.init({ duration: 1000, once: true, easing: 'ease' });
   }, []);
   return (
     <>
