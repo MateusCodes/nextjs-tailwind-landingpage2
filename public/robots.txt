@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mateuscodes-landingpage2.vercel.app/api/my-sitemap
+Sitemap: https://mateuscodes-landingpage2.vercel.app/sitemap.xml
